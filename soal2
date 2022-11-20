@@ -1,0 +1,34 @@
+cd C:\Users\lenovo\Documents\NetBeansProjects\soal2; "JAVA_HOME=C:\\Program Files\\Java\\jdk-19" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.soal2.Soal2 \"-Dexec.executable=C:\\Program Files\\Java\\jdk-19\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" process-classes org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Scanning for projects...
+
+------------------------< com.mycompany:soal2 >-------------------------
+Building soal2 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- maven-resources-plugin:2.6:resources (default-resources) @ soal2 ---
+Using 'UTF-8' encoding to copy filtered resources.
+skip non existing resourceDirectory C:\Users\lenovo\Documents\NetBeansProjects\soal2\src\main\resources
+
+--- maven-compiler-plugin:3.1:compile (default-compile) @ soal2 ---
+Changes detected - recompiling the module!
+Compiling 1 source file to C:\Users\lenovo\Documents\NetBeansProjects\soal2\target\classes
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ soal2 ---
+Masukan Isi Dari Array
+Masukan Index ke-1 : 2
+Masukan Index ke-2 : 3
+Masukan Index ke-3 : 4
+Masukan Index ke-4 : 5
+Masukan Index ke-5 : 6
+Masukan Index ke-6 : 76
+Masukan Index ke-7 : 8
+Masukan Index ke-8 : 9
+Masukan Index ke-9 : 10
+Masukan Index ke-10 : 11
+Isi Arraay : [2, 3, 4, 5, 6, 8, 9, 10, 11, 76]
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  01:19 min
+Finished at: 2022-11-20T00:33:06+07:00
+------------------------------------------------------------------------

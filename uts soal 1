@@ -1,0 +1,34 @@
+cd C:\Users\lenovo\Documents\NetBeansProjects\uts2; "JAVA_HOME=C:\\Program Files\\Java\\jdk-19" cmd /c "\"C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven\\bin\\mvn.cmd\" -Dexec.vmArgs= \"-Dexec.args=${exec.vmArgs} -classpath %classpath ${exec.mainClass} ${exec.appArgs}\" -Dexec.appArgs= -Dexec.mainClass=com.mycompany.uts2.Uts2 \"-Dexec.executable=C:\\Program Files\\Java\\jdk-19\\bin\\java.exe\" \"-Dmaven.ext.class.path=C:\\Program Files\\NetBeans-15\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar\" org.codehaus.mojo:exec-maven-plugin:3.0.0:exec"
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+
+-------------------------< com.mycompany:uts2 >-------------------------
+Building uts2 1.0-SNAPSHOT
+--------------------------------[ jar ]---------------------------------
+
+--- exec-maven-plugin:3.0.0:exec (default-cli) @ uts2 ---
+Bilangan genap :
+2 
+4 
+6 
+8 
+10 
+12 
+14 
+
+Bilangan ganjil :
+1 
+3 
+5 
+7 
+9 
+11 
+13 
+15 
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  12.040 s
+Finished at: 2022-11-19T23:13:12+07:00
+------------------------------------------------------------------------
